@@ -30,8 +30,6 @@ body {
 	padding: 8px;
 }
 
-
-
 .posicao-fixa {
 	position: fixed;
 	margin: 0 0;
@@ -47,6 +45,7 @@ header nav {
 	width: 100%;
 	max-width: 1000px;
 	margin: 0px auto;
+	overflow: hidden;
 	display: inline-table;
 	padding-top: 0px;
 }
@@ -71,12 +70,18 @@ header nav ul li a:hover {
 	color: #68B3AF;
 }
 
+header nav:hover {
+	color: #68B3AF;
+}
+
 .menu_bar {
 	display: none;
+	background-image: url(transparencia.png);
 }
 
 .bt-menu {
 	display: none;
+	background-image: url(transparencia.png);
 }
 
 .espacamento {
@@ -90,6 +95,7 @@ header nav ul li a:hover {
 		left:-100%;
 		margin: 0 0;
 		position: fixed;
+		overflow: hidden;
 	}
 
 	header nav ul li {
@@ -97,15 +103,22 @@ header nav ul li a:hover {
 		float:none;
 		border-bottom: 1px solid #FFF;
 	}
+
+	header nav:hover {
+		color: #68B3AF;
+	}
+
 	.menu_bar {
 		display: block;
 		width: 100%;
 		margin-bottom: 60px;
+		overflow: hidden;
 		background-image: url(transparencia.png);
 	}
 
 	.menu_bar .bt-menu {
 		display: block;
+		overflow: hidden;
 		padding: 20px;
 		background-image: url(transparencia.png);
 		font-size: 25px;
@@ -176,14 +189,14 @@ h2 {
 		background-size: 130%;
 	}
 	.conteudo {
-	height: 600px;
-	padding: 30px;
-	margin: 0px 0px 0px 0px;
+		height: 600px;
+		padding: 30px;
+		margin: 0px 0px 0px 0px;
+	}
 }
-	}
-	.fonte {
-		font-size: 30px;
-	}
+.fonte {
+	font-size: 30px;
+}
 }
 
 @media screen and (min-width: 600px) {
