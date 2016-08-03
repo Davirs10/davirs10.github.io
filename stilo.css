@@ -97,19 +97,9 @@ header nav:hover {
 }
 
 .conteudo {
-	height: 600px;
+	height: 630px;
 	padding: 30px;
 	margin: 0px 0px 0px 0px;
-}
-
-.padding-texto {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.margem-texto {
-	margin-right: 20px;
-	margin-left: 20px;
 }
 
 .imagem {
@@ -125,18 +115,18 @@ header nav:hover {
 }
 
 #ft-perfil {
-		display: table;
-		margin-left: 33%;
-		border-radius: 100px;
-		border-width: 5px;
-		border-style: solid;
-		border-color: #FFF;
-		text-align: center;
-		background: #68B3AF;
-		max-width: 100px;
-		max-height: 100px;
-		margin-top: 140px;
-		margin-bottom: 40px;
+	display: table;
+	margin-left: 33%;
+	border-radius: 100px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #FFF;
+	text-align: center;
+	background: #68B3AF;
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 140px;
+	margin-bottom: 40px;
 }
 
 @media screen and (min-width: 300px) {
@@ -183,6 +173,14 @@ header nav:hover {
 	h2 {
 		padding: 40px;
 		font-size: 40px;
+	}
+	.margem-texto {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.padding-texto {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
 
