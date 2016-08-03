@@ -13,6 +13,12 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script src="smooth-scroll.js"></script>
+  <script>
+       smoothScroll.init({
+           speed: 1000,
+       });
+ </script>
 </head>
 <body>
   <header id="header" class="" > 
@@ -22,12 +28,12 @@
     </div>
       <nav>
         <ul class="esquerda">
-          <li class=""><a href="home.html" class="">Home</a></li>
-          <li class=""><a href="#objetivo" class="">Objetivo</a></li>
-          <li class=""><a href="#formacao" class="">Formação</a></li>
-          <li class=""><a href="#experiencias" class="">Experiências</a></li>
-          <li class=""><a href="#habilidades" class="">Habilidades</a></li>
-          <li class=""><a href="#footer" class="">Contato</a></li>
+          <li class=""><a data-scroll href="home.html" class="">Home</a></li>
+          <li class=""><a data-scroll href="#objetivo" class="">Objetivo</a></li>
+          <li class=""><a data-scroll href="#formacao" class="">Formação</a></li>
+          <li class=""><a data-scroll href="#experiencias" class="">Experiências</a></li>
+          <li class=""><a data-scroll href="#habilidades" class="">Habilidades</a></li>
+          <li class=""><a data-scroll href="#footer" class="">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -35,9 +41,8 @@
     <div class="texto-centralizar clear fonte2 col conteudo ">
       <img src="ft_perfil.png" id="ft-perfil">
       <h1 class="fonte texto-centralizar clear"> Davi Rodrigues da Silva</h1>
-      <h3 class="fonte2 texto-centralizar clear">Web Developer</h3> 
+      <h3 class="fonte2 texto-centralizar clear espacamento">Web Developer</h3> 
       <p>Idade: 23 anos</p>
-      <p>Estado Civil: Solteiro</p>
       <p>Rua Monsenhor Aureliano, 302</p>
       <p>Bairro Centenário</p>
       <p>Lavras – MG</p>
@@ -85,7 +90,7 @@
      </div>
    </div>
 
-   <div id="experiencia" class="texto-centralizar back-cinza conteudo fonte3">
+   <div id="experiencias" class="texto-centralizar back-cinza conteudo fonte3">
      <h2 class="texto-centralizar padding-texto">Experiências Profissionais</h2>
      <div class="col col-2 padding-texto">
        <p>2011 – 2013 e de Maio/2015 a Setembro/2015</p>
@@ -116,7 +121,8 @@
  <footer>
 
  </footer>
- <script src="jquery-latest.js"></script>
+ <script src="smooth-scroll.js"></script>
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
  <script src="menu.js"></script>
 </body>
 </html>
