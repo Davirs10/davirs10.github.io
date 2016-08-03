@@ -149,6 +149,10 @@ header nav:hover {
 		padding: 30px;
 		margin: 0px 0px 0px 0px;
 	}
+	.padding-texto {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 .fonte {
 	font-size: 30px;
@@ -170,10 +174,6 @@ header nav:hover {
 		margin-top: 25px;
 		margin-bottom: 40px;
 	}
-	h2 {
-		padding: 40px;
-		font-size: 40px;
-	}
 }
 
 @media screen and (min-width: 480px) {
@@ -190,6 +190,10 @@ header nav:hover {
 		max-height: 170px;
 		margin-top: 25px;
 		margin-bottom: 40px;
+	}
+	h2 {
+		padding: 40px;
+		font-size: 40px;
 	}
 	.margem-texto {
 		margin-right: 20px;
