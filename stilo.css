@@ -102,11 +102,6 @@ header nav:hover {
 	margin: 0px 0px 0px 0px;
 }
 
-h2 {
-	padding: 40px;
-	font-size: 40px;
-}
-
 .padding-texto {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -184,6 +179,10 @@ h2 {
 		max-height: 170px;
 		margin-top: 25px;
 		margin-bottom: 40px;
+	}
+	h2 {
+		padding: 40px;
+		font-size: 40px;
 	}
 }
 
