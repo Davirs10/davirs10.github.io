@@ -85,10 +85,161 @@ header nav:hover {
 }
 
 .espacamento {
-	letter-spacing: 5px;
+	letter-spacing: 10px;
+}
+
+.back-branco {
+	background-color: #C3DBB4;
+}
+
+.back-cinza {
+	background-color: #68B3AF;
+}
+
+.conteudo {
+	height: 600px;
+	padding: 30px;
+	margin: 0px 0px 0px 0px;
+}
+
+h2 {
+	padding: 40px;
+	font-size: 40px;
+}
+
+.padding-texto {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.margem-texto {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.imagem {
+	max-width: 50%;
+	max-height: 50%;
+}
+
+.icone {
+	padding: 0px;
+	min-width: 40px;
+	min-height: 40px;
+	margin: 20px 10px;
+}
+
+#ft-perfil {
+		display: table;
+		margin-left: 33%;
+		border-radius: 100px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #FFF;
+		text-align: center;
+		background: #68B3AF;
+		max-width: 100px;
+		max-height: 100px;
+		margin-top: 140px;
+		margin-bottom: 40px;
+}
+
+@media screen and (min-width: 300px) {
+	#ft-perfil {
+		display: table;
+		margin-left: 33%;
+		border-radius: 100px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #FFF;
+		text-align: center;
+		background: #68B3AF;
+		max-width: 100px;
+		max-height: 100px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+	.conteudo {
+		height: 600px;
+		padding: 30px;
+		margin: 0px 0px 0px 0px;
+	}
+}
+.fonte {
+	font-size: 30px;
+}
+}
+
+@media screen and (min-width: 600px) {
+	#ft-perfil {
+		display: table;
+		margin-left: 40%;
+		border-radius: 100px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #FFF;
+		text-align: center;
+		background: #68B3AF;
+		max-width: 170px;
+		max-height: 170px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	#ft-perfil {
+		display: table;
+		margin-left: 30%;
+		border-radius: 100px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #FFF;
+		text-align: center;
+		background: #68B3AF;
+		max-width: 170px;
+		max-height: 170px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		background-image: url('home-office2.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		background-size: 100%;
+	}
+	#ft-perfil {
+		display: table;
+		margin-left: 41.5%;
+		border-radius: 100px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #FFF;
+		text-align: center;
+		background: #68B3AF;
+		max-width: 200px;
+		max-height: 200px;
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+	.conteudo {
+		right: 1050px;
+	}
+
 }
 
 @media screen and (max-width: 960px) {
+	body {
+		background-image: url('home-office3.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		background-size: 100%;
+	}
 	header nav {
 		width: 37%;
 		height: 100%;
@@ -131,103 +282,6 @@ header nav:hover {
 	}
 }
 
-.back-branco {
-	background-color: #C3DBB4;
-}
-
-.back-cinza {
-	background-color: #68B3AF;
-}
-
-.conteudo {
-	height: 600px;
-	padding: 30px;
-	margin: 0px 0px 0px 0px;
-}
-
-h2 {
-	padding: 40px;
-}
-
-.padding-texto {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.margem-texto {
-	margin-right: 20px;
-	margin-left: 20px;
-}
-
-.imagem {
-	max-width: 50%;
-	max-height: 50%;
-}
-
-#ft-perfil {
-	display: table;
-	margin-left: 50%;
-	border-radius: 50px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #FFF;
-	text-align: center;
-	background: #68B3AF;
-	max-width: 80px;
-	max-height: 80px;
-	margin-bottom: 40px;
-}
-@media screen and (min-width: 300px) {
-	#ft-perfil {
-		margin-left: 35%;
-	}
-	body {
-		background-image: url('home-office3.png');
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: top;
-		background-size: 130%;
-	}
-	.conteudo {
-		height: 600px;
-		padding: 30px;
-		margin: 0px 0px 0px 0px;
-	}
-}
-.fonte {
-	font-size: 30px;
-}
-}
-
-@media screen and (min-width: 600px) {
-	#ft-perfil {
-		margin-left: 45%;
-	}
-}
-
-@media screen and (min-width: 480px) {
-	#ft-perfil {
-		margin-left: 40%;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	body {
-		background-image: url('home-office2.png');
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: top;
-		background-size: 100%;
-	}
-	#ft-perfil {
-		margin-left: 46%;
-	}
-	.conteudo {
-		right: 1050px;
-	}
-
-}
-
 .texto-centralizar {
 	text-align: center;
 }
@@ -242,4 +296,9 @@ h2 {
 
 .clear {
 	clear: both;
+}
+
+footer {
+	height: 250px;
+	background: #000;
 }
