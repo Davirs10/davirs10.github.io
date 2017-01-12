@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Bree Serif|Imprima');
+/*!
+ * Default theme for Pingendo 
+ * Homepage: http://pingendo.com  
+ * Copyright 2015 Pingendo 
+ * Licensed under MIT 
+ * Based on Bootstrap v3.3.4
+ */
+/* Add custom CSS classes here 
+ * 
+ * img {
+ *   box-shadow : 0px 0px 10px black !important;
+ * }
+ */
+ /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+ html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.fonte-laranja{
+  color: #FF6600;
+}
+
+.fonte-cinza {
+  color: #808080;
+}
+.fonte-branca{
+  color: #FFFFFF;
+}
+
+a{
+  color: #FFF !important;
+}
+
+footer{
+  background-color: #FF9955;
+}
+
+.menu{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.menu img{
+  display: none;
+}
+
+.menu-auxiliar li a:hover{
+  background: #FF9955 !important;
+}
+
+.menu li a:hover{
+  background: #FF9955 !important; 
+}
+
+.open{
+  background: #FF9955 !important;
+}
+
+.menu-auxiliar{
+  background: #000000;
+  filter:alpha(opacity=90);
+  opacity:.90;
+}
+
+.menu-auxiliar img{
+  display: block;
+}
+
+i:hover{
+  color: #FF9955 !important;
+}
+
+.botao{
+  margin-top: 50px;
+  height: 40px;
+  min-width: 200px;
+  background-color: #000000; 
+  filter:alpha(opacity=97);
+  opacity:.97;
+  border-color: #FFF;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.botao:hover{
+  background-color: #FF9955;
+ }
+
+.quadro{
+  height: 80%;
+  margin-top: 60px;
+  background: #000000;
+  filter:alpha(opacity=80);
+  opacity:.80;
+  border-color: #FFF;
+  border-radius: 4px;
+  border-collapse: all;
+}
+
+.quadro h2{
+  padding-bottom: 40px;
+}
+
+.img-menor {
+  max-height: 60% !important;
+  max-width: 60% !important;
+}
+
+.fundo1 {
+  background-image: url(../img/light-bulb-1246043_1280.jpg);
+  background-repeat: repeat;
+}
+
+.fundo2{
+  background-color: #FFF;
+}
+
+.fundo3{
+  background-image: url(../img/ecommerce_fundo.jpg);
+  background-repeat: repeat;
+}
+
+.fundo4{
+  background-image: url(../img/mockup-654585_1280.png);
+  background-repeat: repeat;
+}
+
+.fundo5{
+  background-color: #000000;
+}
+
+.fundo6{
+  background-image: url(../img/crayons-1209804.png);
+  background-repeat: repeat;
+}
+
+.fundo7{
+  background-image: url(../img/media-998990.png);
+  background-repeat: repeat;
+}
+
+.fundo8{
+  background-image: url(../img/server-1235959_1280.png);
+  background-repeat: repeat;
+}
+
+.zoom-mais:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+ -webkit-filter: grayscale(0%);
+ -moz-filter: grayscale(0%);
+ -ms-filter: grayscale(0%);
+ -o-filter: grayscale(0%);
+ filter: grayscale(0%);
+}
+
+.container{
+  max-height: 600px !important;
+}
+
+.imagem-clientes{
+  max-width: 50% !important;
+  max-height: 50% !important;
+  margin: 40px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-left: 50px;
+}
+
+.pading{
+  padding-top: 200px !important;
+  padding-bottom: 200px;
+}
+
+@media (min-width: 600px){
+
+  .quadro h2{
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (min-height: 1000px){
+  .fundo1 {
+    background-image: url(../img/light-1283987.png);
+    background-repeat: repeat !important;
+  }
+
+  .fundo2{
+    background-color: #FFF;
+  }
+
+  .fundo3{
+    background-image: url(../img/ecommerce_fundo.png);
+    background-repeat: repeat !important;
+  }
+
+  .fundo4{
+    background-image: url(../img/art-1850896.png);
+    background-repeat: repeat !important;
+  }
+
+  .fundo5{
+    background-color: #000000;
+  }
+
+  .fundo6{
+    background-image: url(../img/crayons-1209804.png);
+    background-repeat: repeat !important;
+  }
+
+  .fundo7{
+    background-image: url(../img/media-998990.jpg);
+    background-repeat: repeat !important;
+  }
+}
+
+@media (max-width: 640px){
+  .pading{
+    padding-top: 100px !important;
+    padding-bottom: 100px;
+  }
+  .fundo1 {
+    background-image: url(../img/light-1283987cel.png);
+  }
+  .fundo3{
+    background-image: url(../img/ecommerce_fundocel.png);
+  }
+  .fundo4{
+    background-image: url(../img/art-1850896cel.png);
+  }
+
+  .fundo5{
+    background-color: #000000;
+  }
+
+  .fundo6{
+    background-image: url(../img/crayons-1209804cel.png);
+  }
+
+  .fundo7{
+    background-image: url(../img/media-998990cel.png);
+  }
+  .quadro h2{
+    padding-bottom: 2px;
+  }
+  .container{
+    max-height: 400px !important;
+  }
+  .imagem-clientes{
+    margin-left: 25%;
+  }
+}
+
+
+
+.parallax{
+  background-attachment: fixed;
+  background-color: #fff;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+.padding-top {
+  padding-top: 60px !important;
+}
+
+.aumentar{
+  width: 36px !important;
+  height: 36px !important;
+  margin-top: 0 !important;
+}
+
+.fonte2 {
+	font-style: unset !important;
+}
+
+.fixar {
+	position: fixed !important;
+	width: 100% !important;
+}
+
+.imgefeito {
+  margin: 0;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+.imgefeito a {
+  text-decoration: none;
+  float: left;
+}
+.imgefeito a:hover {
+  cursor: pointer;
+} 
+.imgefeito a img {
+  float: left;
+  margin: 0;
+  border: none;
+  padding: 10px;
+  background: #fff;
+
+} 
+.imgefeito a:hover .desc{
+  display: block;
+  font-size: 1.2em;
+  padding: 10px 0;
+  background: #FF9955;
+  filter:alpha(opacity=80);
+  opacity:.80;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
+  color: #fff;
+  position: absolute;
+  bottom: 11px;
+  left: 11px;
+  padding: 10px;
+  margin: 0 0;
+  width: 96%;
+  height: 70%;
+  border-top: 1px solid #999;
+  transition-duration: 1s;
+}
+.imgefeito a:hover .desc strong {
+  display: block;
+  margin-bottom: 0px;
+  font-size:1.5em;
+}
