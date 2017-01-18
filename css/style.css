@@ -168,7 +168,7 @@ i:hover{
 }
 
 .container{
-  max-height: 600px !important;
+  max-height: 550px !important;
 }
 
 .imagem-clientes{
@@ -257,13 +257,24 @@ i:hover{
     background-image: url(../img/media-998990cel.png);
   }
   .quadro h2{
-    padding-bottom: 2px;
+    padding-bottom: 1px;
+    font-size: 20px;
   }
+
+  p{
+    font-size: 12px;
+  }
+
   .container{
-    max-height: 400px !important;
+    max-height: 300px !important;
   }
   .imagem-clientes{
     margin-left: 25%;
+  }
+  .quadro{
+    max-height: 70%;
+    max-width: 80%;
+    margin-top: 10px;
   }
 }
 
