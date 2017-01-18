@@ -114,21 +114,24 @@ i:hover{
 
 .fundo1 {
   background-image: url(../img/light-bulb-1246043_1280.jpg);
-  background-repeat: repeat;
+  background-size: 110%;
 }
 
 .fundo2{
   background-color: #FFF;
+
 }
 
 .fundo3{
   background-image: url(../img/ecommerce_fundo.jpg);
   background-repeat: repeat;
+   background-size: 110%;
 }
 
 .fundo4{
   background-image: url(../img/mockup-654585_1280.png);
   background-repeat: repeat;
+   background-size: 110%;
 }
 
 .fundo5{
@@ -138,16 +141,19 @@ i:hover{
 .fundo6{
   background-image: url(../img/crayons-1209804.png);
   background-repeat: repeat;
+   background-size: 110%;
 }
 
 .fundo7{
   background-image: url(../img/media-998990.png);
   background-repeat: repeat;
+   background-size: 110%;
 }
 
 .fundo8{
   background-image: url(../img/server-1235959_1280.png);
   background-repeat: repeat;
+   background-size: 110%;
 }
 
 .zoom-mais:hover{
@@ -191,7 +197,7 @@ i:hover{
 
 @media screen and (min-height: 1000px){
   .fundo1 {
-    background-image: url(../img/light-1283987.png);
+    background-image: url(../img/light-bulb-1246043_1280.jpg);
     background-repeat: repeat !important;
   }
 
@@ -230,7 +236,7 @@ i:hover{
     padding-bottom: 100px;
   }
   .fundo1 {
-    background-image: url(../img/light-1283987cel.png);
+    background-image: url(../img/light-bulb-1246043_1280.jpg);
   }
   .fundo3{
     background-image: url(../img/ecommerce_fundocel.png);
