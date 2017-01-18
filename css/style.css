@@ -50,11 +50,11 @@ footer{
   display: none;
 }
 
-.menu-auxiliar li a:hover{
+.menu-auxiliar li a span:hover{
   background: #FF9955 !important;
 }
 
-.menu li a:hover{
+.menu li a span:hover{
   background: #FF9955 !important; 
 }
 
@@ -64,8 +64,8 @@ footer{
 
 .menu-auxiliar{
   background: #000000;
-  filter:alpha(opacity=90);
-  opacity:.90;
+  filter:alpha(opacity=96);
+  opacity:.96;
 }
 
 .menu-auxiliar img{
@@ -77,7 +77,8 @@ i:hover{
 }
 
 .botao{
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   height: 40px;
   min-width: 200px;
   background-color: #000000; 
@@ -107,6 +108,10 @@ i:hover{
   padding-bottom: 40px;
 }
 
+#footer{
+  display: block;
+}
+
 .img-menor {
   max-height: 60% !important;
   max-width: 60% !important;
@@ -115,6 +120,7 @@ i:hover{
 .fundo1 {
   background-image: url(../img/light-bulb-1246043_1280.jpg);
   background-size: 110%;
+  background-attachment: fixed;
 }
 
 .fundo2{
@@ -136,6 +142,10 @@ i:hover{
 
 .fundo5{
   background-color: #000000;
+  background: #000000;
+  filter:alpha(opacity=80);
+  opacity:.80;
+
 }
 
 .fundo6{
@@ -153,7 +163,7 @@ i:hover{
 .fundo8{
   background-image: url(../img/server-1235959_1280.png);
   background-repeat: repeat;
-   background-size: 110%;
+   background-size: 160%;
 }
 
 .zoom-mais:hover{
@@ -167,13 +177,9 @@ i:hover{
  filter: grayscale(0%);
 }
 
-.container{
-  max-height: 550px !important;
-}
-
 .imagem-clientes{
-  max-width: 50% !important;
-  max-height: 50% !important;
+  max-width: 40% !important;
+  max-height: 40% !important;
   margin: 40px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -217,6 +223,8 @@ i:hover{
 
   .fundo5{
     background-color: #000000;
+    filter:alpha(opacity=80);
+    opacity:.80;
   }
 
   .fundo6{
@@ -247,6 +255,8 @@ i:hover{
 
   .fundo5{
     background-color: #000000;
+    filter:alpha(opacity=80);
+    opacity:.80;
   }
 
   .fundo6{
@@ -268,6 +278,9 @@ i:hover{
   .container{
     max-height: 300px !important;
   }
+   .container2{
+    max-height: 350px !important;
+  }
   .imagem-clientes{
     margin-left: 25%;
   }
@@ -275,6 +288,13 @@ i:hover{
     max-height: 70%;
     max-width: 80%;
     margin-top: 10px;
+  }
+  .botao{
+    margin-bottom: 4px;
+    margin-top: 2px;
+  }
+  .formulario{
+    padding-bottom: 12px !important;
   }
 }
 
