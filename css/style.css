@@ -360,12 +360,7 @@ footer{
     font-size: 12px;
   }
 
-  .container{
-    max-height: 300px !important;
-  }
-  .container2{
-    max-height: 350px !important;
-  }
+  
   .imagem-clientes{
     margin-left: 25%;
   }
