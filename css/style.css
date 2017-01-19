@@ -70,7 +70,7 @@ footer{
   display: block;
 }
 
-.dropdown-toggle .dropdown .dropdown-menu button:hover{
+.dropdown-toggle .dropdown .dropdown-menu a:focus{
   background: #000000 !important;
   filter:alpha(opacity=96);
   opacity:.96;
