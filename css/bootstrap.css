@@ -3421,7 +3421,7 @@ tbody.collapse.in {
 }
 .dropdown-toggle:focus {
   outline: 0;
-  background-color: #FF9955 !important;
+  color: #FF9955 !important;
 }
 .dropdown-menu {
   position: absolute;
@@ -3466,16 +3466,15 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
-  background-color: #FF9955;
+  color: #FF9955;
+ ;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #FF9955;
+  color: #FF9955;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
