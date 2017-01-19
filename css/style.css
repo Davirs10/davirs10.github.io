@@ -71,7 +71,9 @@ footer{
 }
 
 .dropdown-toggle .dropdown .dropdown-menu button:hover{
-  background-color: transparent !important;
+  background: #000000 !important;
+  filter:alpha(opacity=96);
+  opacity:.96;
 }
 
 i:hover{
