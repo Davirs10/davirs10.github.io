@@ -296,6 +296,10 @@ i:hover{
   .formulario{
     padding-bottom: 12px !important;
   }
+.parallax{
+  background-attachment: fixed;
+  
+}
 }
 
 
