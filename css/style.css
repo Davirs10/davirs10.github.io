@@ -70,6 +70,10 @@ footer{
   display: block;
 }
 
+.dropdown-toggle:hover{
+  color: #FFF !important;
+}
+
 i:hover{
   color: #FF9955 !important;
 }
