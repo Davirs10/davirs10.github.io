@@ -31,6 +31,9 @@ body {
 }
 .fonte-branca{
   color: #FFFFFF;
+  border-collapse: all;
+  border-color: #808080;
+  border-radius: 6px;
 }
 
 a{
@@ -50,134 +53,155 @@ footer{
   display: none;
 }
 
-.menu-auxiliar li a span:hover{
+/*.menu-auxiliar li a:hover{
   background: #FF9955 !important;
+  color: #FFF;
 }
-
-.menu li a span:hover{
-  background: #FF9955 !important; 
-}
-
-.open{
+.menu-auxiliar li a:focus{
   background: #FF9955 !important;
-}
+  color: #FFF;
+  }*/
+  .menu li a:hover{
+    color: #FF9955 !important; 
+  }
 
-.menu-auxiliar{
-  background: #000000;
-  filter:alpha(opacity=96);
-  opacity:.96;
-}
+  .open{
+    background: #FF9955 !important;
+  }
 
-.menu-auxiliar img{
-  display: block;
-}
+  .menu-auxiliar{
+    background: #000000;
+    filter:alpha(opacity=96);
+    opacity:.96;
+  }
 
-i:hover{
-  color: #FF9955 !important;
-}
+  .menu-auxiliar img{
+    display: block;
+  }
 
-.botao{
-  margin-top: 30px;
-  margin-bottom: 20px;
-  height: 40px;
-  min-width: 200px;
-  background-color: #000000; 
-  filter:alpha(opacity=97);
-  opacity:.97;
-  border-color: #FFF;
-  font-size: 16px;
-  border-radius: 4px;
-}
+  i:hover{
+    color: #FF9955 !important;
+  }
 
-.botao:hover{
-  background-color: #FF9955;
+  .botao{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 40px;
+    min-width: 200px;
+    background-color: #000000; 
+    filter:alpha(opacity=97);
+    opacity:.97;
+    border-color: #FFF;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .botao:hover{
+    border-color: #FF9955;
+    color: #FF9955;
+  }
+
+  .img-responsive{
+    filter:alpha(opacity=100);
+    opacity:100;
+  }
+
+  .quadro{
+    height: 80%;
+    margin-top: 60px;
+    background: #000000;
+    filter:alpha(opacity=80);
+    opacity:.80;
+    border-color: #FFF;
+    border-radius: 4px;
+    border-collapse: all;
+  }
+
+  .quadro h2{
+    padding-bottom: 40px;
+  }
+
+  #footer{
+    display: block;
+  }
+
+  .img-menor {
+    max-height: 60% !important;
+    max-width: 60% !important;
+  }
+
+  .fundo1 {
+    background-image: url(../img/fundo.png);
+    background-size: 110%;
+    background-attachment: fixed;
+  }
+
+  .fundo2{
+    background-color: #FFF;
+
+  }
+
+  .fundo3{
+    background-image: url(../img/ecommerce_fundo.jpg);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo4{
+    background-image: url(../img/mockup-654585_1280.png);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo5{
+    background-color: #000000;
+    background: #000000;
+    filter:alpha(opacity=80);
+    opacity:.80;
+
+  }
+
+  .fundo6{
+    background-image: url(../img/crayons-1209804.png);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo7{
+    background-image: url(../img/media-998990.png);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo8{
+    background-image: url(../img/server-1235959_1280.png);
+    background-repeat: repeat;
+    background-size: 160%;
+  }
+
+  .fundo9{
+    background-image: url("../img/fundo2.png");
+
+  }
+
+  .fundo10{
+    background-image: url("../img/tinta_azul.png");
+    background-size: 80% !important;
+
+  }
+
+  .zoom-mais:hover{
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   -ms-filter: grayscale(0%);
+   -o-filter: grayscale(0%);
+   filter: grayscale(0%);
  }
 
-.quadro{
-  height: 80%;
-  margin-top: 60px;
-  background: #000000;
-  filter:alpha(opacity=80);
-  opacity:.80;
-  border-color: #FFF;
-  border-radius: 4px;
-  border-collapse: all;
-}
-
-.quadro h2{
-  padding-bottom: 40px;
-}
-
-#footer{
-  display: block;
-}
-
-.img-menor {
-  max-height: 60% !important;
-  max-width: 60% !important;
-}
-
-.fundo1 {
-  background-image: url(../img/light-bulb-1246043_1280.jpg);
-  background-size: 110%;
-  background-attachment: fixed;
-}
-
-.fundo2{
-  background-color: #FFF;
-
-}
-
-.fundo3{
-  background-image: url(../img/ecommerce_fundo.jpg);
-  background-repeat: repeat;
-   background-size: 110%;
-}
-
-.fundo4{
-  background-image: url(../img/mockup-654585_1280.png);
-  background-repeat: repeat;
-   background-size: 110%;
-}
-
-.fundo5{
-  background-color: #000000;
-  background: #000000;
-  filter:alpha(opacity=80);
-  opacity:.80;
-
-}
-
-.fundo6{
-  background-image: url(../img/crayons-1209804.png);
-  background-repeat: repeat;
-   background-size: 110%;
-}
-
-.fundo7{
-  background-image: url(../img/media-998990.png);
-  background-repeat: repeat;
-   background-size: 110%;
-}
-
-.fundo8{
-  background-image: url(../img/server-1235959_1280.png);
-  background-repeat: repeat;
-   background-size: 160%;
-}
-
-.zoom-mais:hover{
- -webkit-transform: scale(1.2);
- -ms-transform: scale(1.2);
- transform: scale(1.2);
- -webkit-filter: grayscale(0%);
- -moz-filter: grayscale(0%);
- -ms-filter: grayscale(0%);
- -o-filter: grayscale(0%);
- filter: grayscale(0%);
-}
-
-.imagem-clientes{
+ .imagem-clientes{
   max-width: 40% !important;
   max-height: 40% !important;
   margin: 40px;
@@ -203,38 +227,63 @@ i:hover{
 
 @media screen and (min-height: 1000px){
   .fundo1 {
-    background-image: url(../img/light-bulb-1246043_1280.jpg);
-    background-repeat: repeat !important;
+    background-image: url(../img/fundo.png);
+    background-size: 110%;
+    background-attachment: fixed;
   }
 
   .fundo2{
     background-color: #FFF;
+
   }
 
   .fundo3{
-    background-image: url(../img/ecommerce_fundo.png);
-    background-repeat: repeat !important;
+    background-image: url(../img/ecommerce_fundo.jpg);
+    background-repeat: repeat;
+    background-size: 110%;
   }
 
   .fundo4{
-    background-image: url(../img/art-1850896.png);
-    background-repeat: repeat !important;
+    background-image: url(../img/mockup-654585_1280.png);
+    background-repeat: repeat;
+    background-size: 110%;
   }
 
   .fundo5{
     background-color: #000000;
+    background: #000000;
     filter:alpha(opacity=80);
     opacity:.80;
+
   }
 
   .fundo6{
     background-image: url(../img/crayons-1209804.png);
-    background-repeat: repeat !important;
+    background-repeat: repeat;
+    background-size: 110%;
   }
 
   .fundo7{
-    background-image: url(../img/media-998990.jpg);
-    background-repeat: repeat !important;
+    background-image: url(../img/media-998990.png);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo8{
+    background-image: url(../img/server-1235959_1280.png);
+    background-repeat: repeat;
+    background-size: 160%;
+  }
+
+  .fundo9{
+    background-image: url("../img/fundo2.png");
+
+  }
+
+  .fundo10{
+    background-image: url("../img/tinta_azul.png");
+    background-size: 80% !important;
+
   }
 }
 
@@ -244,27 +293,63 @@ i:hover{
     padding-bottom: 100px;
   }
   .fundo1 {
-    background-image: url(../img/light-bulb-1246043_1280.jpg);
+    background-image: url(../img/fundo.png);
+    background-size: 150%;
+    background-attachment: fixed;
   }
+
+  .fundo2{
+    background-color: #FFF;
+
+  }
+
   .fundo3{
     background-image: url(../img/ecommerce_fundocel.png);
+    background-repeat: repeat;
+    background-size: 80%;
   }
+
   .fundo4{
-    background-image: url(../img/art-1850896cel.png);
+    background-image: url(../img/mockup-654585_1280cel.png);
+    background-repeat: repeat;
+    background-size: 80%;
   }
 
   .fundo5{
     background-color: #000000;
+    background: #000000;
     filter:alpha(opacity=80);
     opacity:.80;
+
   }
 
   .fundo6{
     background-image: url(../img/crayons-1209804cel.png);
+    background-repeat: repeat;
+    background-size: 100% !important;
   }
 
   .fundo7{
     background-image: url(../img/media-998990cel.png);
+    background-repeat: repeat;
+    background-size: 110%;
+  }
+
+  .fundo8{
+    background-image: url(../img/server-1235959_1280cel.png);
+    background-repeat: repeat;
+    background-size: 160%;
+  }
+
+  .fundo9{
+    background-image: url("../img/fundo2.png");
+
+  }
+
+  .fundo10{
+    background-image: url("../img/tinta_azul.png");
+    background-size: 80% !important;
+
   }
   .quadro h2{
     padding-bottom: 1px;
@@ -278,7 +363,7 @@ i:hover{
   .container{
     max-height: 300px !important;
   }
-   .container2{
+  .container2{
     max-height: 350px !important;
   }
   .imagem-clientes{
@@ -296,17 +381,12 @@ i:hover{
   .formulario{
     padding-bottom: 12px !important;
   }
-.parallax{
-  background-attachment: fixed;
-  
-}
 }
 
 
 
 .parallax{
   background-attachment: fixed;
-  background-color: #fff;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
