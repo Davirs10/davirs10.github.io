@@ -3899,7 +3899,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #FF9955;
+  color: #FF9955;
   border-color: #337cbb;
 }
 .nav .nav-divider {
