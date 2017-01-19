@@ -71,7 +71,7 @@ footer{
 }
 
 .dropdown-toggle .dropdown .dropdown-menu button:hover{
-  color: #FFF !important;
+  background-color: transparent !important;
 }
 
 i:hover{
